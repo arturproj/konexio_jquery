@@ -1,4 +1,6 @@
-bodyEl = document.querySelector("body");
-console.log(bodyEl)
-
-  
+$( document ).ready(function() {
+    btn = $( "button" );
+    btn.click(function() {
+        displaySecretText()
+    });
+});

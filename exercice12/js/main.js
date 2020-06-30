@@ -1,4 +1,10 @@
-btn = document.querySelector("button");
-btn.addEventListener("click", function() {
-    btn.textContent ="button clicked";
+$( document ).ready(function() {
+    btn = $( "button" );
+    btn.click(function() {
+        Magic()
+    });
 });
+
+function Magic(){
+    $( "#square" ).css({"backgroundColor":"red","width":500})
+}

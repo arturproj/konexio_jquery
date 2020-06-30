@@ -1,6 +1,10 @@
-parg = document.createElement("p");
-parg.textContent = "Konexio";
-document.querySelector("body").appendChild(parg)
-console.log(parg)
+$( document ).ready(function() {
+    btn = $( "button" );
+    btn.click(function() {
+        Magic()
+    });
+});
 
-  
+function Magic(){
+    $( "#square" ).css("backgroundColor","red")
+}

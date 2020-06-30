@@ -1,4 +1,3 @@
-bodyEl = document.querySelector("body");
-console.log(bodyEl)
-
-  
+$( document ).ready(function() {
+    $( "#text" ).css("display","block");
+});

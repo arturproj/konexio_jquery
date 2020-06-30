@@ -1,45 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Exercice</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../assets/css/exercise.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
     <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand"><img src="../assets/img/logo.png" /></a>
+        <a class="navbar-brand"><img src="../assets/img/logo.png" /></a>
     </nav>
     <div class="container">
-      <div class="row">
-        <div class="col-8 offset-2 instructions">
-          <h4>
-            Vous venez de voir :
-          </h4>
-          <ul>
-            <li>comment utiliser le JavaScript dans le navigateur</li>
-            <li>comment modifier des éléments du DOM</li>
-            <li>
-              que le principe de propriétés et de méthodes s'utilisent de pleins
-              d'autres manières
-            </li>
-          </ul>
-          <h4>Bravo ! 🎉</h4>
-          <h4>
-            Prochaine étape, la création d'élements pour modifier la structure
-            de votre page
-          </h4>
+        <div class="row">
+            <div class="col-6 offset-3 instructions">
+                <h4>Ajouter le texte <em>Konexio!</em> dans la boîte rouge avec la méthode <code>html</code></h4>
+                <p>Aller dans le fichier js/main.js pour modifier le code et appliquer les instructions</p>
+            </div>
+            <div class="col-12 exercise">
+                <div id="exercise">
+                    <span id="text"></span>
+                </div>
+            </div>
         </div>
-        <div class="col-12 exercise">
-          <div id="exercise">
-            <h1>DigiQuery Adventure</h1>
-            <h2>From JavaScript to the DOM, right before jQuery</h2>
-          </div>
-        </div>
-      </div>
     </div>
     <script src="../assets/js/jquery-3.3.1.min.js"></script>
     <script src="../assets/js/functions.js"></script>
     <script src="js/main.js"></script>
-  </body>
+</body>
 </html>

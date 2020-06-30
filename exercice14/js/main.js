@@ -1,5 +1,10 @@
-btn = document.querySelector("button");
-btn.addEventListener("click", function() {
-    btn.textContent ="button clicked";
-    document.querySelector("h1").classList.add("highlight");
+$( document ).ready(function() {
+    btn = $( "button" );
+    btn.click(function() {
+        Magic()
+    });
 });
+
+function Magic(){
+    $( "#text" ).css("fontSize", 50).attr("class", "float-right");
+}

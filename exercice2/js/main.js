@@ -1,3 +1,5 @@
-heading1El = document.querySelector("#exercise");
-
-console.log(heading1El)
+$( document ).ready(function() {
+    $( "#square" )
+        .css("backgroundColor","red")
+        .width("500");
+});
